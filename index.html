@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Needlify Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Needlify',
+      repo: 'Needlify/Docs',
+      coverpage: true,
+      themeColor: '#FF7503',
+      // mergeNavbar: true,
+      externalLinkTarget: '_blank',
+      routerMode: 'history',
+      onlyCover: false,
+      basePath: '/en/',
+      // fallbackLanguages: ['en', 'fr'],
+      // notFoundPage: {
+      //   '/fr': '_404.md',
+      //   '/en': 'de/_404.md',
+      // },
+      homepage: 'home.md',
+			loadSidebar: true,
+			auto2top: true,
+			relativePath: false,
+			logo: '/_media/logo_horizontal.svg',
+			ext: '.md',
+			plugins: [
+				EditOnGithubPlugin.create(docBase = "https://github.com/Needlify/Docs/master", docEditBase = "https://github.com/Needlify/Docs/master", title = "Edit on GitHub")
+			],
+			subMaxLevel: 3,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
