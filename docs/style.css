@@ -1,0 +1,21 @@
+a.app-name-link img {
+   height: 50px !important;
+}
+
+div.cover-main p img{
+   height: 200px !important;
+}
+
+article#main ul li {  
+   list-style-image: url("./_media/li_marker.svg");
+   line-height: 35px;
+}
+
+.markdown-section pre>code.lang-tree{
+   line-height: 16px;
+}
+
+hr#hr-sidebar{
+   border: 1px solid rgba(70, 70, 70, .1);
+   margin: 30px 20px 30px 20px;
+}
