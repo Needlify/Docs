@@ -2,7 +2,7 @@
 
 # A wonderful tech place
 
-- Modern UI with a beautifull design
+- Modern UI with a beautiful design
 - Precise informations like a needle
 - A lot of useful tips 👍
 
