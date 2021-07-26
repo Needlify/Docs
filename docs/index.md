@@ -16,6 +16,10 @@ You've found a bug ? Please, [open an issue](https://github.com/Needlify/Communi
 
 Same process as above. If you want to contribute to Needlify by suggesting new features, you can do so on [github](https://github.com/Needlify/Community/issues/new/choose) or by mailing us at [support@needlify.com](mailto:support@needlify.com).
 
+## Contributing
+
+You're a developer or you understand how Needlify works ? You can help us by contributing to the documentation. Add missing parts, correct typos, etc.
+
 ## Still need help ?
 
 Join the [community Discord server](https://discord.gg/aVYBcexpEE) to discuss with other members of the community.
